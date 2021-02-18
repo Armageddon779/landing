@@ -1,0 +1,195 @@
+.menu{
+	text-align: center;
+
+}
+.menu a{
+	text-decoration: none;
+	color: darkblue;
+	display: inline-block;
+	width: 150px;
+	height: 50px;
+}
+.menu a:hover{
+	background-color: #ccc;
+}
+.header{
+	text-align: center;
+	background-image: url(img/polygons.png);
+	padding: 200px;
+    color: white;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+ h2{
+   text-align: center;
+}
+.img{
+	width: 40%;
+	display: inline-block;
+	float: right;
+
+
+}
+.text p{
+	width: 60%;
+	display: inline-block;
+}
+.p{
+	text-align: center;
+}
+.member{
+	display: inline-block;
+	width: 20%;
+	margin: 10px 20px 10px 20px;
+	border: 2px grey solid;
+	padding: 10px;
+	box-shadow: 0 2px 5px gray;
+	min-width: 150px;
+}
+.member img{
+	width: 100%;
+}
+.command{
+	width: 100%;
+
+}
+.command h2{
+	text-align: center;
+}
+.position{
+	text-align: left;
+	opacity: 50%;
+}
+.description{
+	text-align: left;
+}
+.a{
+	background-color: #055b73;
+	color: white;
+	text-decoration: none;
+	width: 100px;
+	border-radius: 5px;
+	padding: 14px 0;
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+
+}
+.tariff li{
+ list-style-type: none; 
+ border-bottom: 1px solid #dddddd; 
+ padding: 16px 0;
+}
+.tariffishe{
+	color: white;
+	font-size: 24px;
+	padding: 32px 0;
+	background-color: black;
+
+}
+.tariff-name{
+	color: white;
+		font-size: 24px;
+	padding: 48px 0 !important;
+	background-color: #055b73;
+}
+.tariff{
+	display: inline-block;
+	width: 30%;
+	text-align: center;
+	margin: 10px;
+	vertical-align: middle;
+	background-color: white;
+	padding: 0;
+	color: black;
+}
+.prices{
+	background-color: grey;
+	color: white;
+}
+.tariff li:last-child{
+	background-color: #f1f1f1;
+	padding: 24px 0;
+}
+li a{
+		background-color: black;
+	color: white;
+	text-decoration: none;
+	width: 100px;
+	border-radius: 5px;
+	padding: 12px 24px;
+	width: 100%;
+	text-align: center;
+     
+}
+li a:hover{
+	color: black;
+	background-color: white;
+}
+.paragraf{
+	text-align: center;
+}
+.text{
+    text-align: center;
+}
+.contact{
+	background-color: #f1f1f1;
+	padding: 40px;
+}
+.contact-info{
+	padding-left:30px;
+    text-align: left;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 18px 18px;
+    margin-left: 2%;
+}
+.contact-adres{
+	background-image: url(img/address.png);
+}
+.contact-phone{
+    background-image: url(img/phone.png);
+}
+.contact-email{
+	  background-image: url(img/mail.png);
+}
+.contact input{
+      width: 90%;
+      margin: 5px;
+      padding: 10px;
+      text-align: center;
+}
+.massege{
+			background-color: black;
+	color: white;
+	text-decoration: none;
+	width: 100px;
+	border-radius: 5px;
+	padding: 12px 24px;
+	width: 20%;
+	text-align: center;
+	margin-top: 5px;
+	display: block;
+	margin: 10px auto;
+
+}
+.massege:hover{
+	color: black;
+	background-color: white;
+
+
+}
+.end{
+	background-color: black;
+	color: white;
+}
+@media (max-width: 1345px) {
+ .member{
+ 	display: block;
+    margin: 0 auto;
+ }
+ .tariff{
+ 	 	display: block;
+    margin: 0 auto;
+ }
+}
